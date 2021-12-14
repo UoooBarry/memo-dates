@@ -9,6 +9,7 @@
           <v-card-subtitle text>{{ event.happen_date }}</v-card-subtitle>
           <v-card-text>
             <div>{{ event.description }}</div>
+            <div>离纪念日, 还有{{ event.days_from_today }}天</div>
           </v-card-text>
           <v-card-actions>
             <v-btn text @click='modify()'> Modify </v-btn>
