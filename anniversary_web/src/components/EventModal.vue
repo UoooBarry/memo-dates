@@ -63,7 +63,7 @@ export default {
   },
   methods: {
     submit() {
-      if (this.event.id) {
+      if (this.event.id > 0) {
         this.patchEvent();
       } else {
         this.newEvent();
